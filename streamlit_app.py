@@ -45,7 +45,7 @@ if "last_prediction" not in st.session_state:
 # ======================
 # 모델 로드
 # ======================
-FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1uj2lD8goJDLo9uSg_8HcT4bxnl2trPc8")
+FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1hqw-AzFh2Tm_SoKD2JZCigwP3wpLYd4N")
 MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
 
 @st.cache_resource
@@ -74,6 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
+    labels[0] : {"texts" : ["중국식 냉면은 맛있어"], "images" : [https://www.unileverfoodsolutions.co.kr/dam/global-ufs/mcos/south-korea/calcmenu/recipes/kr-recipes/chinese/header/%EC%A4%91%EA%B5%AD%EB%83%89%EB%A9%B4-chinese-cold-noodles-header-1260x709px.jpg]},
+    labels[1] : {"texts" : ["짜장면은 맛있어"], "images" : [https://img.bizthenaum.co.kr/img2022/uyang_jjajang_01.jpg]},
+    labels[2] : {"texts" : ["짬뽕은 맛있어"], "images" : [https://cdn.shopify.com/s/files/1/0528/8266/9745/files/00_56ba285a-533b-45aa-bf9d-5c98fb48cad5.jpg?v=1654594868]},
+    labels[3] : {"texts" : ["탕수육은 맛있어"], "images" : [https://i.namu.wiki/i/NSZu9w4DRwEPOCgPSzvs4sAZlxfMBoxZLCZQgM_O4wRH8jN0guRfBiLURu-Tno5p-Q2aw5e5gy9gLJsnYKlq8Q.webp]},
+    
 }
 
 # ======================
