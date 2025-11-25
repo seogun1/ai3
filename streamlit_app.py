@@ -74,10 +74,18 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-    labels[0] : {"texts" : ["중국식 냉면은 맛있어"], "images" : ["https://www.esquirekorea.co.kr/resources_old/online/org_online_image/eq/71c93efd-352d-4fb4-8a98-dd1b51475442.jpg"]},
+    labels[0] : {"texts" : ["중국식 냉면은 맛있어"], "images" : ["https://www.esquirekorea.co.kr/resources_old/online/org_online_image/eq/71c93efd-352d-4fb4-8a98-dd1b51475442.jpg"]}, 
+    labels[0] : {"texts" : ["중국식 냉면은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MzBfMTE0%2FMDAxNjI3NjM5MTg2MzA1.hQNVefHMeee8_yu5G9NeSHaRJM8gI0sgbtnhndi2jiAg.E4soA9N4nLDxyM4Fo8OkvBEl6Xp7_eQzY67h_KWzqo4g.JPEG.llzzinll%2FIMG_9560.JPG&type=sc960_8"]}, 
+    labels[0] : {"texts" : ["중국식 냉면은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MTdfMjg1%2FMDAxNTk0OTk3ODEyNTg2.pibiTP9zaKDsXEoQY50LHcMJyclbrVSEaFGB0mdcPrgg.S1Mb-JncItFbKPd1bOPY32tLRx5xbqTSjM6f1s1kLCGrQg.PNG.choulha63%2F000001.png&type=sc960_832"]},
     labels[1] : {"texts" : ["짜장면은 맛있어"], "images" : ["https://img.bizthenaum.co.kr/img2022/uyang_jjajang_01.jpg"]},
+    labels[1] : {"texts" : ["짜장면은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20250721_98%2F175309891491457cke_JPEG%2F26073267762260728_1604458411.jpg&type=sc960_832"]},
+    labels[1] : {"texts" : ["짜장면은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMThfMTMy%2FMDAxNzQyMjk3MDYyODkx.hEux3ZPrJ3fymVlH-YVTh9wQep4ZP65B3e2I4tf6mK8g.ikihfADoRYh6j_6Em6zAeMElbQg6mlfEzopBayRJMt8g.JPEG%2FGemini_Generated_Image_eczlqneczlqneczl.jpg&type=sc960_832"]},
     labels[2] : {"texts" : ["짬뽕은 맛있어"], "images" : ["https://cdn.shopify.com/s/files/1/0528/8266/9745/files/00_56ba285a-533b-45aa-bf9d-5c98fb48cad5.jpg?v=1654594868"]},
+    labels[2] : {"texts" : ["짬뽕은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA4MjZfMjQ1%2FMDAxNzU2MTgxMzQ2ODk4.ecNlsAqDkEdEBUWi0rnDCQdPH7Ey8-OeHwOmUQP6XHAg.D1liKZaqHxrBAofOESlR3UnyXHJ_pmyu0rqtL17NSo0g.JPEG%2Fpromotion_bcd81697_2_1755479655.jpg&type=sc960_832"]},
+    labels[2] : {"texts" : ["짬뽕은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MTZfMjc4%2FMDAxNzUwMDAwODY1NTg3.d3bEKmqEKN4BvkYO5X4W4_V_M8jOK8UQRxJTiLdQvZUg.HnGkrmh1_ivxyMZohfNxn9X76kSwIJlIZmUmwtQyITog.JPEG%2F900%25A3%25DF20250506%25A3%25DF110548.jpg&type=sc960_832"]},
     labels[3] : {"texts" : ["탕수육은 맛있어"], "images" : ["https://i.namu.wiki/i/NSZu9w4DRwEPOCgPSzvs4sAZlxfMBoxZLCZQgM_O4wRH8jN0guRfBiLURu-Tno5p-Q2aw5e5gy9gLJsnYKlq8Q.webp"]},
+    labels[3] : {"texts" : ["탕수육은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTEwMTRfMjYz%2FMDAxNzYwNDQ0MzEyODAz.bXkne0ptWrkwi0LlRrqTxDQaJnoBd4Ci-yxagDd2Tkgg.Fba1SIGd5bNto3kQZE4YlzJpxIZZWyG0yaNQryh_xxMg.JPEG%2F900%25A3%25DF20251014%25A3%25DF185421.jpg&type=sc960_832"]},
+    labels[3] : {"texts" : ["탕수육은 맛있어"], "images" : ["https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTExMDFfMTcg%2FMDAxNzYyMDAwNjU1MDAx.XOr2OSngONG0PuzNvyMvlnBrx8WYMv3fqyvWtC1ZemAg.8yi6Gv0seFZBy1oaRWA8xwv_U8XcauD0v2WEPEdY-1Ug.JPEG%2FIMG%25A3%25DF9024.jpg&type=sc960_832"]},
     
 }
 
